@@ -1,0 +1,272 @@
+body
+{
+    font-family:'Times New Roman', Times, serif;
+    background:linear-gradient(0deg, rgba(1, 19, 124, 0.473), rgba(0, 98, 163, 0.466)), url(backgrounds/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 1000px;
+}
+
+#header
+{
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}  
+
+#logoname
+{
+    float: left;
+    width: 25%;
+}
+ 
+#logo
+{
+    float: left;
+    padding: 10px;
+    width: 30px;
+}
+
+#name
+{
+    float: left;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#nav1
+{
+    float: right;
+    margin-top: 0px;
+    padding-left: 25px;
+    width: 64%; 
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500; 
+}
+
+#home
+{
+    float: left;
+    margin: 12px 10px 12px 25px;
+    padding-left: 100px;
+    padding-right: 5px;
+    transition: font-size .2s, padding-right .2s;
+}
+
+#home:hover
+{
+    font-size: 18.8px;
+    margin-top: 11px;
+    padding-right: 3px;
+}
+
+
+#pd
+{
+    float: left;
+    margin: 12px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: font-size .2s, padding-right .2s;
+}
+
+#pd:hover
+{
+    font-size: 18.5px;
+    padding-right: 1px;
+}
+
+#npd
+{
+    float: left;
+    margin: 12px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: font-size .2s, padding-right .2s;
+}
+
+#npd:hover
+{
+    font-size: 18.5px;
+    padding-right: 0px;
+}
+
+#dd
+{
+    float: left;
+    margin: 12px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: font-size .2s, padding-right .2s;
+}
+
+#dd:hover
+{
+    font-size: 18.5px;
+    padding-right: 1px;
+}
+
+#cartimg
+{
+    float: left;
+    padding: 0px 3px;
+    margin-top: 5px;
+    width: 50px;
+}
+
+#userimg
+{
+    float: left;
+    padding: 0px 9px;
+    margin-top: 5px;
+    width: 35px;
+}
+
+.container
+{
+    width: 100%;
+}
+
+#marketingtitle
+{
+    width: 70%;
+    padding-left: 15%;
+    padding-top: 70px;
+    height: 150px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.strategy
+{
+    width: 65%;
+    height: 350px;
+    margin-left: 8%;
+    margin-bottom: 75px;
+    padding: 2% 10%;
+    background:linear-gradient(180deg, rgba(0, 195, 255, 0.445), rgba(0, 62, 196, 0.726));
+    border-radius: 1000px;
+    box-shadow:rgba(0, 18, 119, 0.74) 0px 15px 25px;
+    transition: background .5s, box-shadow .5s;
+}
+
+.strategy:hover
+{
+    background:linear-gradient(180deg, rgba(0, 195, 255, 0.562), rgba(0, 62, 196, 0.836));
+    box-shadow:rgba(0, 18, 119, 0.74) 0px 30px 40px;
+    border-radius: 190px;
+}
+
+#promo
+{
+    width: 70%;
+    height: 475px;
+    margin-left: 5%;;
+    padding: 2% 10%;
+    transition: background .5s, box-shadow .5s;
+}
+
+#promo:hover
+{
+    background:linear-gradient(180deg, rgba(0, 195, 255, 0.562), rgba(0, 62, 196, 0.836));
+    box-shadow:rgba(0, 18, 119, 0.74) 0px 30px 40px;
+    border-radius: 255px;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 24px;
+    margin: -5px 10px;
+    letter-spacing: 1px;
+}
+
+.info
+{
+    width: 95%;
+    padding: 0% 5%;
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: .5px;
+    text-align: justify;
+}
+
+#nav2
+{
+    margin-top: 200px;
+    padding-bottom: 20px;
+    width: auto;
+    font-size: 20px;   
+    font-weight: 500;
+    color:white; 
+    text-align: center; 
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.navi
+{
+    max-width: 90%;
+    padding: 10px 30px 5px 30px; 
+}
+
+#n2faq:hover
+{
+    font-size: 20.5px;
+    padding: 8px 29.5px 5px 29.5px;
+}
+
+#n2home:hover
+{
+    font-size: 20.5px;
+    padding: 8px 29.5px 5px 29.5px;
+}
+
+#n2npd:hover
+{
+    font-size: 20.3px;
+    padding: 8px 0px 5px 0px;
+    margin: 0px -1.5px;
+}
+
+#n2pd:hover
+{
+    font-size: 20.3px;
+    padding: 8px 0px 5px 0px;
+    margin: 0px -1.5px;
+}
+
+#n2dd:hover
+{
+    font-size: 20.3px;
+    padding: 8px 0px 5px 0px;
+    margin: 0px -1px;
+}
+
+#marketing:hover
+{
+    font-size: 20.4px;
+    padding: 8px 0px 5px 0px;
+    margin: 0px -.5px;
+}
+
+#about:hover
+{
+    font-size: 20.4px;
+    padding: 8px 0px 5px 0px;
+    margin: 0px -.5px;
+}

@@ -1,0 +1,214 @@
+body
+{
+    width: 98%;
+    height: 635px;
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(37, 44, 138, 0.096), rgba(6, 59, 95, 0.226)), url(backgrounds/background3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#header
+{
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+#logoname
+{
+    float: left;
+    width: 25%;
+}
+ 
+#logo
+{
+    float: left;
+    padding: 10px;
+    width: 30px;
+}
+
+#name
+{
+    float: left;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#nav1
+{
+    float: right;
+    margin-top: 0px;
+    padding-left: 25px;
+    width: 64%; 
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500; 
+}
+
+#home
+{
+    float: left;
+    margin: 12px 10px 12px 25px;
+    padding-left: 100px;
+    padding-right: 5px;
+    transition: font-size .2s, padding-right .2s;
+}
+
+#home:hover
+{
+    font-size: 18.8px;
+    margin-top: 11px;
+    padding-right: 3px;
+}
+
+
+#pd
+{
+    float: left;
+    margin: 12px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: font-size .2s, padding-right .2s;
+}
+
+#pd:hover
+{
+    font-size: 18.5px;
+    padding-right: 1px;
+}
+
+#npd
+{
+    float: left;
+    margin: 12px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: font-size .2s, padding-right .2s;
+}
+
+#npd:hover
+{
+    font-size: 18.5px;
+    padding-right: 0px;
+}
+
+#dd
+{
+    float: left;
+    margin: 12px 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: font-size .2s, padding-right .2s;
+}
+
+#dd:hover
+{
+    font-size: 18.5px;
+    padding-right: 1px;
+}
+
+#cartimg
+{
+    float: left;
+    padding: 0px 3px;
+    margin-top: 5px;
+    width: 50px;
+}
+
+#userimg
+{
+    float: left;
+    padding: 0px 9px;
+    margin-top: 5px;
+    width: 35px;
+}
+#loginheader
+{
+    color: white;
+    width: 100%;
+}
+
+#container
+{
+    width: 68%;
+    height: 550px;
+}
+
+#loginform
+{
+    float: right;
+    margin-top: 50px;
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.137));
+}
+
+#patient
+{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.input
+{
+    margin: 10px 10px 30px 10px;
+}
+
+.inputbox
+{
+    width: 50%;
+    color: white;
+	background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+::placeholder 
+{
+    color: white;
+    opacity: 1; 
+}
+
+.button
+{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: rgb(19,184,219);
+}
+
+#loginbutton
+{
+    background:linear-gradient(#0cbaff, #0099ff);
+}
+
+#signupbutton
+{
+    background:linear-gradient(#0cbaff, #009ec5);
+}
+
+.button:hover
+{
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 10px 4px 10px;
+
+}
+
+#signup
+{
+    padding: 10px;
+}

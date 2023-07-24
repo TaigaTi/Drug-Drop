@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="login.css">
+        <title>Login</title>
+    </head>
+
+    <body>
+        <header id="header">
+            <div id="logoname">
+                <img id="logo" src="icons/plusheart.png"/>
+                <h3 id="name"><a href="home.html">Drug Drop</a></h3>
+            </div>
+            
+            <nav id="nav1">
+                <a href="home.html">
+                    <span id="home">Home</span>
+                </a>
+
+                <a href="login.html">
+                    <span id="pd">Prescription Delivery</span>
+                </a>
+
+                <a href="shop.html">
+                    <span id="npd">Non-Prescription Drugs</span>
+                </a>
+            
+                <a href="directory.html">
+                    <span id="dd">Doctor Directory</span>
+                </a>
+
+                <a href="cart.html">
+                    <span id="cart">
+                        <img id="cartimg" src="icons/cart.png" alt="cart">
+                    </span>
+                </a>
+
+                <a href="login.html">
+                    <span id="user">
+                        <img id="userimg" src="icons/user.png" alt="login">
+                    </span>
+                </a>
+            </nav>
+        </header>
+        
+        <div id="container">
+            <div id="loginform">
+                <div id="patient">
+                    <div id="login">
+                        <h1>Login</h1>
+                        <form action="prescription.html" action="POST">
+                            <div class="user">
+                                <div class="input">
+                                    <input class="inputbox" type="text" placeholder="Username" name="Username" required/>
+                                </div>
+                            </div>
+                            
+                            <div class="password">
+                                <div class="input">
+                                    <input class="inputbox" type="password" placeholder="Password" name="Password" required/>
+                                </div>
+                            </div>
+                            <div class="submit">
+                                <a href="prescription.html" id="loginbutton" class="button" type="submit">Login</a>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div id="signup">
+                        <h1>Sign Up</h1>
+                        <form action="prescription.html" method="POST">
+                            <div class="user">
+                                <div class="input">
+                                    <input class="inputbox" type="text" placeholder="Username" name="Username" required/>
+                                </div>
+                            </div>
+                            
+                            <div class="password">
+                                <div class="input">
+                                    <input class="inputbox" type="password" placeholder="Password" name="Password" required/>
+                                </div>
+                            </div>
+
+                            <div id="confirm">
+                                <div class="input">
+                                    <input class="inputbox" type="password" placeholder="Confirm Password" name="PasswordConfirm" required/>
+                                </div>
+                                <div class="submit">
+                                    <a href="signup.html" id="signupbutton" class="button" type="submit">Sign Up</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

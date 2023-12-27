@@ -1,0 +1,1 @@
+Drug-Drop is a web-based platform designed to streamline the process of prescription delivery. The project aims to provide a user-friendly website that allows users to have their prescriptions refilled and delivered directly to their doorstep without any hassle.
